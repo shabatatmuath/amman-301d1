@@ -2,26 +2,67 @@ nav, article, aside, footer section {
     margin: 0 auto;
     width: 900px;
   }
+
+  #logo h1 {
+    padding-left: 50px;
+    font-size: 2.4em;
+  }
   
   nav {
     margin-top: 25px;
   }
+  nav ul {
+    float: right;
+  }
   
+  nav li {
+    float: left;
+    padding-right: 2px;
+  }
+
+
+  .print img {
+    margin-right: 3px;
+  }
+
+  .recipe li {
+    float: left;
+    width: 40%;
+    font-size: 1.3em;
+    line-height: 31px;
+  }
+  
+  aside button {
+    float: right;
+    text-transform: uppercase;
+    padding: 15px 40px;
+    font-size: 1.2em;
+  }
+  aside p {
+    padding-left: 100px;
+    width: 65%;
+    margin: 0;
+    text-indent: 0;
+  
+  }
  
   
   #slogan {
     width: 250px;
     padding-left: 55px;
-    color: #a3a4a2;
-    font-family: 'Abel', sans-serif;
+   
     font-size: .65em;
     text-transform: uppercase;
+  }
+
+  footer section p{
+    padding: 50px 0;
+    line-height: 1.5em;
   }
   
  
   .print, .date {
-    color: #a9a8a5;
-    font-family: 'Abel', sans-serif;
+   
     font-size: .8em;
     margin: 0;
     text-transform: uppercase;
@@ -44,9 +85,7 @@ nav, article, aside, footer section {
   
   .recipe {
     letter-spacing: .1em;
-    font-family: 'Patrick Hand', cursive;
-    color: #666a42;
-    background-image: url("img/list-bg.png");
+   
     height: 260px;
     padding: 37px 0 0 60px;
     margin: 40px 0;

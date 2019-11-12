@@ -11,19 +11,10 @@
   }
   
   #logo h1 {
-    padding-left: 50px;
     font-family: 'Yellowtail', cursive;
-    font-size: 2.4em;
   }
 
-  nav ul {
-    float: right;
-  }
   
-  nav li {
-    float: left;
-    padding-right: 2px;
-  }
   
   hr {
     clear: both;
@@ -38,9 +29,7 @@
     font-size: 2.5em;
   }
   
-  .print img {
-    margin-right: 3px;
-  }
+  
   
   main p {
     color: #333;
@@ -53,12 +42,7 @@
   input {
     font-family: 'Patrick Hand', cursive;
   }
-  .recipe li {
-    float: left;
-    width: 40%;
-    font-size: 1.3em;
-    line-height: 31px;
-  }
+ 
  
 
 
@@ -73,25 +57,24 @@
     color: #555;
   }
   
-  aside p {
-    padding-left: 100px;
-    width: 65%;
-    margin: 0;
-    text-indent: 0;
   
-  }
   
   aside button {
-    float: right;
     font-family: 'Abel', sans-serif;
-    text-transform: uppercase;
-    padding: 15px 40px;
     background: #b8705a;
     color: #fff;
-    font-size: 1.2em;
     border: none;
   }
+
+  #slogan {
+  color: #a3a4a2;
+  font-family: 'Abel', sans-serif;
+  }
   
+  .print, .date {
+  color: #a9a8a5;
+  font-family: 'Abel', sans-serif;
+  }
 
   section hr {
     border-bottom: 1px solid #eee;
@@ -100,9 +83,13 @@
   
   
   footer section p{
-    padding: 50px 0;
-    line-height: 1.5em;
+   
     text-align: center;
     color: #aaa;
   }
   
+  .recipe{
+  font-family: 'Patrick Hand', cursive;
+  color: #666a42;
+  background-image: url("img/list-bg.png");
+  }
